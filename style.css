@@ -1,0 +1,57 @@
+$primary: #5265E1;
+$secondary:#FA5959;
+$warning: #dbdddf;
+
+body{
+    overflow-x: hidden;
+}
+// navbar
+.navHover{
+    color: rgb(33, 37, 41);
+    text-decoration: none;
+}
+
+.navHover:hover{
+    color: #FA5959;
+    border-color: #FA5959;
+}
+
+.loginHover a{
+    color: white;
+}
+
+.loginHover a:hover{
+    background-color:white;
+    color: #FA5959;
+    border-style: solid;
+    border-color: #FA5959;
+    border-width: 2px;
+
+}
+#primaryButton{
+    width: 150px;
+}
+
+#secondaryButton{
+    width: 150px;
+}
+
+#primaryButton:hover{
+    background-color:white;
+    color:#5265E1;
+    border-style: solid;
+    border-color: #5265E1;
+    border-width: 2px;
+    
+}
+
+#secondaryButton:hover{
+    background-color: white;
+    color: #3c3c3c;
+    border-style: solid;
+    border-color:  #3c3c3c;
+    border-width: 2px;
+     
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
